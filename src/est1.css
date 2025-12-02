@@ -1,0 +1,50 @@
+* {
+    margin: 5px
+}
+
+.padre {
+    width: 1200px;
+    height: 1200px;
+    display: grid;
+    border: solid;
+    grid-template-areas: "cabecera cabecera cabecera"
+        "menu menu menu"
+        "contenido contenido2 ads"
+        "pie pie pie";
+}
+
+.cabecera {
+    grid-area: cabecera;
+    border: solid;
+}
+.menu {
+    grid-area: menu;
+    border: solid;
+}
+
+
+.contenido {
+    grid-area: contenido;
+    border: solid;
+}
+.contenido2 {
+    grid-area: contenido2;
+    border: solid;
+}
+.ads {
+    grid-area: ads;
+    border: solid;
+}
+
+.pie {
+    grid-area: pie;
+    border: solid;
+}
+.test {
+    margin: 0px;
+    width: 500px;
+    height: 500px;
+    display: grid;
+    grid-template-areas: "cabecera cabecera"
+        "menu menu"
+}
