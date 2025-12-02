@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <div>
+      <div className='card'>
         <h1>Titulo</h1>
       </div>
       <div>
